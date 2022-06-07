@@ -2,5 +2,5 @@
 int main(void)
 {
 puts("Programming is like building a multilingual puzzle);
-std::map<std::puts>;
+std::map<std::-out>;
 }
