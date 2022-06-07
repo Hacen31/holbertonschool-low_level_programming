@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(void)
+#include <stdlib.h>
+main()
 {
 puts ("Programming is like building a multilingual puzzle");
 system("break") ;
