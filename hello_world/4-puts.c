@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-puts(//"Programming is like building a multilingual puzzle");
-std::-out>;
+puts (//"Programming is like building a multilingual puzzle");
+system("break") ;
+    
 }
