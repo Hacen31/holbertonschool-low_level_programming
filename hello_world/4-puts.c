@@ -3,6 +3,6 @@
 main()
 {
 puts ("Programming is like building a multilingual puzzle");
-system("break") ;
+std::("break") ;
     
 }
