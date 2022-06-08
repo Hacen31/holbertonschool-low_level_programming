@@ -1,8 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
-main()
+/**
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
+int main(void)
 {
-puts ("Programming is like building a multilingual puzzle"\n);
-std::("break") ;
+puts ($"Programming is like building a multilingual puzzle");
+ 
     
 }
