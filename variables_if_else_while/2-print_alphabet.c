@@ -1,11 +1,14 @@
-# include <stdio.h> 
-# include <stdlib.h> 
-# include <time.h>  
+# include <stdio.h>
+# include <stdlib.h>
+# include <time.h>
+
 int main(void)
 {
-	char i; 
+	char i;
+
 	for (i=a; i<z; i++)
-		putchar(i); 
-	putchar(\n);  
-	return (0); 
+		putchar(i);
+	putchar(\n);
+
+	return (0);
 }
