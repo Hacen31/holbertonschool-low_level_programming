@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _islower - Cfr description
  * @c: input character
