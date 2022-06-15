@@ -28,10 +28,8 @@ void times_table(void)
 
 			if (mult == 9)
 				continue;
-
-			_putchar(',');
-
+			_putchar('\n');
 		}
 		_putchar(' ');
-}
-}
+	}
+
