@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_si- imprime le signe d'un nombre
- * numero sur lequel le signe sera imprime.i
- * Return: 1 if si le nombre est superieur a 0
- * 0 if si le nombre est égal à zéro,
- * -1 if si le nombre est inférieur à zéro.
-*/
+ * print_sign - Cfr description
+ * @n: input number
+ * Description: checks for number sign
+ * Return: 1 if > than 0, 0 if equal to 0 and -1 if < than 0
+ */
+
 int print_sign(int n)
 {
 	int b = 0;
