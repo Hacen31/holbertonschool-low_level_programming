@@ -5,7 +5,7 @@
  * main - check the code
  *
  * Return: always O
-*/
+ */
 
 int main(void)
 {
@@ -30,6 +30,6 @@ int main(void)
 			continue;
 		printf(" ");
 	}
-	printf('\n')
+	printf("\n");
 	return (0);
 }
