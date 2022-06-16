@@ -30,6 +30,5 @@ int main(void)
 			continue;
 		printf(" ");
 	}
-	printf("\n");
 	return (0);
 }
