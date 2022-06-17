@@ -19,4 +19,4 @@ int _isupper(int c)
 			b = 1;
 	}
 	return (b);
-}
+i}
