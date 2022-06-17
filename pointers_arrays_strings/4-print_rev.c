@@ -4,11 +4,11 @@
 /**
  * print_rev - prints a string, followed by a new line
  * @s:variable
-*/
+ */
 
 void print_rev(char *s)
 {
-	int a = 0;
+	iiint a = 0;
 
 	while (s[a] != '\0')
 	{
