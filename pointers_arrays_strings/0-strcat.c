@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * strcat - Concatenates the pointed string and the end byte
- * char *strcat(char *dest, const char *src).
+ * strcat - Concatenates the pointed string and the end byte.
  *
  * Return: A pointer to the destination string @dest.
  */
