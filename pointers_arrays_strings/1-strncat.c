@@ -9,11 +9,10 @@
  * Return: address of dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n);
 {
 	int a, b;
-
-	a = b = 0;
+    a = b = 0;
 	while (*(dest + a))
 		a++;
 	while ((*(dest + a) = *(src + b)))
