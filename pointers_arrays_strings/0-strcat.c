@@ -1,10 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * strcat - Concatenates the pointed string and the end byte.
+ * strcat - Concatène la chaîne pointée et l'octet de fin.
+ * @dest: ajoute la chaine source src
+ * @src: Chaine de caractere source
+ * Return: renvoie un pointeur vers la chaîne résultante dest
  */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 	int index = 0, dest_len = 0;
 
