@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * strcat - Concatène la chaîne pointée et l'octet de fin.
