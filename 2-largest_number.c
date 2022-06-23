@@ -12,9 +12,9 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	if (a > b && a > c)
+	if (a > b && b > c)
 	{
-		prinft("a > b && a > c");
+		prinft("a");
 
 		largest = a;
 	}
