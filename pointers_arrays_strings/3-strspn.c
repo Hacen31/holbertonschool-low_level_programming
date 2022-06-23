@@ -31,3 +31,5 @@ break;
 else if (!(accept[index + 1])
 return (bytes++)
 }
+}
+}
