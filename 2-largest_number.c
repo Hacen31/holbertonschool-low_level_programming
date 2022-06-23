@@ -14,7 +14,7 @@ int largest_number(int a, int b, int c)
 
 	if (a > b && b > c)
 	{
-		prinft("a");
+		prinft("a is the largest");
 
 		largest = a;
 	}
