@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- *@:Returns a pointer to the byte in s.
- *@:bytes accept, or NULL if no bytes of this type are found.
+ *@:Retourner le pointeur sur l'octet dans s.
+ *@:octets acceptés, ou NULL si aucun octet de ce type n'est trouvé.
  * Return: Always 0.
  */
 
@@ -11,9 +11,9 @@ char *_strpbrk(char *s, char *accept);
 {
 	char c, accept[100];
 	int s, occurrence = 0;
-	printf("Entrez une chaîne de caractères:");
+	printf("Return ");
 	gets(accept);
-	printf("Entrez un caractère:");
+	printf("s");
 	scanf("%c", &c);
-	for (i = 0; accept[s] != '\0'; ++s)
-{
+	for (i = 0; accept[s] != '\0'; ++s
+}	
