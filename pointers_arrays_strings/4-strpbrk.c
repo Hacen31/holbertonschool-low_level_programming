@@ -2,18 +2,28 @@
 #include <stdio.h>
 
 /**
- *@:Retourner le pointeur sur l'octet dans s.
- *@:octets acceptés, ou NULL si aucun octet de ce type n'est trouvé.
- * Return: Always 0.
+ * _strpbrk - Searches a string for any of a set of bytes.
+ * @s: The string to be searched.
+ * @accept: The set of bytes to be searched for.
+ *
+ * Return: If a set is matched - a pointer to the byte s that matches.
+ * If a set is matched - a pointer to the matched byte.
+ * If no set is matched - NULL.
  */
-
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
-	char c, accept[100];
-	int s, occurrence = 0;
-	printf("Return ");
-	gets(accept);
-	printf("s");
-	scanf("%c", &c);
-	for (i = 0; accept[s] != '\0'; ++s
-}	
+	int index;
+
+	while (*s)
+	{
+		for (index = 0; accept[index]; index++)
+		{
+			if (*s == accept[index])
+				return (s);
+		}
+
+		s++;
+	}
+
+	return ('\0');
+}
