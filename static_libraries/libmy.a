@@ -24,4 +24,5 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-
+ma librairie.h:Header file containing the prototypes of all functions included in libmy.a Header file containing the prototypes of all functions included in libmy.a.
+create_static_lib.sh: Bash script that creates a tatic library called liball.a from all the .c files in the current directory.
