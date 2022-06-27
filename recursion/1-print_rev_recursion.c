@@ -1,25 +1,18 @@
 #include "main.h"
+#include <string.h>
 #include <stdio.h>
 
-void _print_rev_recursion(char *s);
+/**
+ * _print_rev_recursion - Prints a string in reverse.
+ * @s: The string to be printed.
+ */
+
+void _print_rev_recursion(char *s)
 {
-	char str[100], rev[100];
-	int t, i, j;
+	if (*(s + 1))
+		_print_rev_recursion(s + 1);
 
-	printf(" Because, in my dreams we are together :  ");
-	gets(str);
 
-	j = 0;
-	t = strlen(str);
-
-	rev[t] = '\0';
-	for (i = t - 1; i >= 0; i--)
-	{
-		rev[j++] = str[i];
-	}
-	rev[i] = '\0';
-
-	printf(" Chaîne de caractère après inversion = %s", rev);
-
-	return (0);
+	_putchar(*s);
 }
+
