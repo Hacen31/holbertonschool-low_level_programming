@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 
 /**
@@ -7,6 +6,7 @@
  * @a: The matrix of integers.
  * @size: The size of the matrix.
  */
+
 void print_diagsums(int *a, int size)
 {
 	int index, sum1 = 0, sum2 = 0;
@@ -17,7 +17,7 @@ void print_diagsums(int *a, int size)
 		a += size;
 	}
 
-	a -= size;
+	a--;
 
 	for (index = 0; index < size; index++)
 	{
