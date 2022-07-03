@@ -1,7 +1,6 @@
 #include "0-object_like_macro.h"
 #include "0-object_like_macro.h"
 #include <stdio.h>
-#ifndef MACRO_SIZE
 #define MACRO_SIZE 1024
 
 /* Size of array */
