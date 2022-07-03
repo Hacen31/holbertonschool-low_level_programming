@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef MACRO_SIZE
+#define MACRO_SIZE 1024
 
 #define _XTAL_FREQ 1000000
 #define input LATC0
