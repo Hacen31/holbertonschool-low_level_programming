@@ -10,14 +10,13 @@
  *
  * Return: A pointer to the resulting string dest.
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
 	int index = 0, src_len = 0;
 
-
 	while (src[index++])
 		src_len++;
-
 
 	if (src_len > n)
 	{
@@ -25,16 +24,13 @@ char *_strncpy(char *dest, char *src, int n)
 			dest[index] = src[index];
 	}
 
-
 	else
 	{
 		for (index = 0; index < src_len; index++)
 			dest[index] = src[index];
 
-
 		dest[index] = '\0';
 	}
-
 
 	return (dest);
 }
