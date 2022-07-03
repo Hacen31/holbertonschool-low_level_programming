@@ -1,15 +1,11 @@
-#ifndef OBJECT_LIKE_MACRO_H
-#define OBJECT_LIKE_MACRO_H
+#ifndef MAIN_H
+#define MAIN_H
 
-/*
- * File: 0-object_like_macro.h
- * Desc: Header file that defines a macro named
- * SIZE as an abbreviation for the token 1024.
- */
+#define _XTAL_FREQ 1000000
+#define input LATC0
+#define output LATC1
+#define size 1024       /* Size of array */
 
-#ifndef OBJECT_LIKE_MACRO_H
-#define OBJECT_LIKE_MACRO_H
+extern const int data[size];
 
-#define SIZE 1024
-
-#ifndef
+#endif
