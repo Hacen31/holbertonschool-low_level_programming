@@ -6,6 +6,6 @@
 #define output LATC1
 #define size 1024       /* Size of array */
 
-extern const int data[size];
+extern const int data[size 1024];
 
 #endif
