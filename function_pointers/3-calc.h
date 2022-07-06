@@ -1,7 +1,7 @@
 #ifndef CALC_H
 #define CALC_H
 
-/**
+/*
  * struct op - Struct op
  * @op : L’opérateur
  * @f : La fonction associée
