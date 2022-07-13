@@ -10,7 +10,7 @@
  * @next: points to the next node
  */
 
-list_head
+const list_t *h
 {
 	struct list_head *next;
 	struct list_head *prev;
