@@ -1,14 +1,11 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
+#include <stdio.h>
 
 /**
- * afficher list - afficher tout les elements de list_t list.
- * @:list_t liste
+ * print_list - Imprime tous les éléments d'une liste list_t.
+ * @h : La liste list_t.
  *
- * main - check the code
- * Return: Always 0.
+ * Retourne : Le nombre de noeuds dans h.
  */
 
 size_t print_list(const list_t *h)
@@ -28,12 +25,4 @@ size_t print_list(const list_t *h)
 	}
 
 	return (nodes);
-}
-const list_t *h
-{
-	struct list_head *next;
-	struct list_head *prev;
-
-	list_t;
-	return (0);
 }
