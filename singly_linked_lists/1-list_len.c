@@ -1,6 +1,5 @@
 #include "lists.h"
 
-
 /**
  * list_len - Trouve le nombre d'éléments dans
  * une liste_t liée.
