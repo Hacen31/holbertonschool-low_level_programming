@@ -7,12 +7,9 @@
  * @num2 : deuxième entier à ajouter.
  *
  * Retour : Le résultat de l'addition.
- *
  */
-int add(int, int);
-{
-	int n;
-	int  add ( int num1, int num2)
 
-		retour (num1 + num2);
+	int  add(int num1, int num2)
+{
+		return (num1 + num2);
 }
