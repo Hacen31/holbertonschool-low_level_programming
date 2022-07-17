@@ -6,6 +6,6 @@ int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
-print_all("ceis", 'H', 0, "lberton");
+
 
 #endif /* VARIADIC_FUNCTIONS_H */
