@@ -2,14 +2,13 @@
 #include <stdio.h>
 
 /**
- * add - Additionne deux nombres entiers.
- * @num1 : Le premier entier à ajouter.
- * @num2 : deuxième entier à ajouter.
+ * add - Adds two integers.
+ * @num1: The first integer to be added.
+ * @num2: The second integer to be added.
  *
- * Retour : Le résultat de l'addition.
+ * Return: The result of the addition.
  */
-
-	int  add(int num1, int num2)
+int add(int num1, int num2)
 {
-		return (num1 + num2);
+	return (num1 + num2);
 }
